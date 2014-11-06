@@ -19,7 +19,8 @@
         android:text="Translate"
         android:id="@+id/button"
         android:layout_below="@+id/translationTextView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickTranslate" />
 
     <TextView
         android:id="@+id/translationTextView"
